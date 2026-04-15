@@ -1,2 +1,2 @@
-# regression-project
-A collaborative end-to-end machine learning project developed by a team of students for the Regression course at FCDS.
+## Overview
+This is a **collaborative machine learning project** developed as a requirement for the **Regression** course at the **Faculty of Computing and Data Science (FCDS)**. 
