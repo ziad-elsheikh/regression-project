@@ -1,0 +1,75 @@
+Column_Name,Description
+CalfID,Unique identification number for each animal.
+Pen,The specific enclosure or pen where the calf was housed.
+Block,Experimental grouping or block used in the study design.
+Season_x,The season during which performance data was recorded (Suffix from Merge).
+Season_y,The season during which blood/immunity samples were taken (Suffix from Merge).
+Year,The calendar year the data was collected.
+Day,The specific day of the experiment or trial.
+Timepoint,Specific temporal point when the sample or measurement was taken.
+DamID,Unique identification number of the calf’s mother.
+Sire,Unique identification number of the calf’s father (for genetic analysis).
+Genotype,The genetic constitution of the individual calf.
+Phenotype,The observable physical characteristics of the calf.
+Sex,The biological sex of the animal.
+Growth,"Initial growth rate classification (e.g., High/Medium)."
+Milk,The milk production capacity of the dam.
+MBW,"Metabolic Body Weight ($Weight^{0.75}$), used to scale metabolic processes."
+ADG,Average Daily Gain; the rate of weight change per day (Primary Target Variable Y).
+ODMI,Observed Dry Matter Intake; the actual amount of feed consumed on a dry basis.
+PDMI,Predicted Dry Matter Intake based on standard nutritional models.
+RFI,Residual Feed Intake; the difference between actual and expected feed intake (Efficiency Metric).
+GF,Gain-to-Feed ratio; a measure of feed conversion efficiency.
+PADG,Predicted Average Daily Gain.
+RADG,Residual Average Daily Gain.
+Weight (kg),The live body weight of the calf measured in kilograms.
+ConA Proliferation Index,Lymphocyte proliferation response to Concanavalin A (T-cell mitogen).
+LPS Proliferation Index,Lymphocyte response to Lipopolysaccharide (B-cell/Gram-negative bacteria stimulus).
+PWM Proliferation Index,Lymphocyte response to Pokeweed Mitogen.
+Plasma Cortisol (ng/ml),"Concentration of cortisol in plasma, a primary biomarker for physiological stress."
+IgG1 (ng/ml),Immunoglobulin G1 concentration; primary antibody for long-term immunity.
+IgG2 (ng/ml),Immunoglobulin G2 concentration.
+IgM (ng/ml),Immunoglobulin M concentration; the first antibody produced during an immune response.
+IgG1 to IgG2,"The ratio of IgG1 to IgG2, indicating the type of immune response (Th1 vs Th2)."
+Total IgG (ng/ml),The total concentration of all IgG subclasses.
+WBC,Total White Blood Cell count; primary cells of the immune system.
+NEU,Absolute Neutrophil count; cells that respond to bacterial infections.
+LYM,Absolute Lymphocyte count; cells responsible for adaptive immunity.
+NLR,Neutrophil-to-Lymphocyte Ratio; a significant marker for systemic inflammation and stress.
+MONO,Absolute Monocyte count.
+EOS,Absolute Eosinophil count; associated with parasitic infections and allergies.
+BAS,Absolute Basophil count.
+NEU%,Percentage of Neutrophils in the total WBC count.
+LYM%,Percentage of Lymphocytes in the total WBC count.
+MONO%,Percentage of Monocytes in the total WBC count.
+EOS%,Percentage of Eosinophils in the total WBC count.
+BAS%,Percentage of Basophils in the total WBC count.
+RBC,Total Red Blood Cell count.
+HGB,Hemoglobin concentration; responsible for oxygen transport.
+HCT,Hematocrit; the proportion of blood volume occupied by red cells.
+MCV,Mean Corpuscular Volume; average size of red blood cells.
+MCH,Mean Corpuscular Hemoglobin; average amount of hemoglobin per red cell.
+MCHC,Mean Corpuscular Hemoglobin Concentration.
+RDW%,Red Cell Distribution Width; variation in red blood cell size.
+PLT,Platelet count; essential for blood clotting.
+MPV,Mean Platelet Volume.
+IFNy,Interferon-gamma; a critical cytokine for innate and adaptive immunity against viral pathogens.
+IL1a,Interleukin-1 alpha; a pro-inflammatory cytokine.
+IL1B,Interleukin-1 beta.
+IL4,Interleukin-4; involved in stimulating B-cell proliferation.
+IL6,Interleukin-6; a key mediator of the acute phase response and chronic inflammation.
+IL10,Interleukin-10; an anti-inflammatory cytokine that limits the immune response.
+IL17A,Interleukin-17A; involved in mucosal immunity and inflammation.
+MIP1alpha,Macrophage Inflammatory Protein-1 alpha; attracts immune cells to infection sites.
+IL36R,Interleukin-36 Receptor.
+IP10,Interferon gamma-induced protein 10.
+MCP1,Monocyte Chemoattractant Protein-1.
+MIP1b,Macrophage Inflammatory Protein-1 beta.
+TNFa,Tumor Necrosis Factor alpha; a potent systemic inflammatory signaling protein.
+VEGFa,Vascular Endothelial Growth Factor A.
+BHV1,Bovine Herpesvirus 1 titers (Infectious Bovine Rhinotracheitis).
+BHV1_Log,Log-transformed BHV1 titers.
+BVDV1,Bovine Viral Diarrhea Virus 1 titers.
+BVDV1_Log,Log-transformed BVDV1 titers.
+BRSV,Bovine Respiratory Syncytial Virus titers.
+BRSV_Log,Log-transformed BRSV titers.
